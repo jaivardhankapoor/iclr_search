@@ -1,6 +1,4 @@
-Flask~=3.0.3
-numpy~=2.1.2
-openai~=1.51.1
-pandas~=2.2.3
-rank_bm25~=0.2.2
-tqdm~=4.66.4
+flask
+numpy
+openai
+rank_bm25
