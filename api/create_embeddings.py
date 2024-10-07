@@ -67,6 +67,10 @@ print(embedding_array.shape)
 embedding_array[0]
 # %%
 # save the numpy array to a file
-np.save("/mnt/repos/iclr_search/embedding_array.npy", embedding_array)
+# np.save("/mnt/repos/iclr_search/embedding_array.npy", embedding_array)
+np.save(
+    "/mnt/repos/iclr_search/embedding_array_fp16.npy",
+    embedding_array.astype(np.float16),
+)
 
 # %%

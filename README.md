@@ -78,8 +78,8 @@ Your app should now be deployed and accessible via the Vercel URL provided.
 - `api/index.py`: main flask application
 - `vercel.json`: vercel configuration file
 - `requirements.txt`: python dependencies
-- `iclr_2025_submissions.json`: json file containing paper submissions (not included in this repository)
-- `embedding_array_fp16.npy`: numpy array of paper embeddings (not included in this repository)
+- `iclr_2025_submissions.json`: json file containing paper submissions (precomputed in this rep)
+- `embedding_array_fp16.npy`: numpy array of paper embeddings (precomputed in this rep)
 
 Make sure to include the `iclr_2025_submissions.json` and `embedding_array_fp16.npy` files in your repository or upload them to Vercel separately.
 
