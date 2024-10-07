@@ -2,6 +2,8 @@
 
 This Flask app allows users to search for ICLR 2025 paper submissions using semantic search and BM25 ranking.
 
+Deployed at [https://iclr-search.jkapoor.me](https://iclr-search.jkapoor.me)
+
 ## Prerequisites
 
 - Python 3.7 or higher
